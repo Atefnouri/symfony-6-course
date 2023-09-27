@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>My Array Items:</h1>
+    <ul>
+     
+            <li>{{  title  }}</li>
+           <li> {{ dump(title) }} </li>
+   
+    </ul>
+
+
+    {% if title %}
+    <p>{{title }}  is a great movie</p>
+    {% else %}
+    <p>no movies were found</p>
+      {% endif %}
+
+</body>
+</html>
+
+
+
+
+
